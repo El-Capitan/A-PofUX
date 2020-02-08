@@ -1,0 +1,23 @@
+.btn-theme {
+    font-family: $btn-font-family;
+    font-size: $btn-font-size;
+    font-weight: $btn-font-weight;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    border: 1px solid $dark_brn;
+    background: $navbar-default-bg;
+    color: $link-color;
+            &:hover,
+            &:focus {
+                color: $link-hover-color;
+            }
+    @include prefix(transition, all 200ms ease-in, webkit moz)
+}
+.btn-info {
+    &:hover,
+    &:focus {
+        color: $dark_brn;
+        background: $navbar-default-link-hover-color;
+    }
+}

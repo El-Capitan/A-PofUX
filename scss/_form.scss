@@ -1,0 +1,62 @@
+.modal-header {
+    background-color: $navbar-default-bg;
+    border-radius: 10px 10px 0 0;
+    h2 {
+        color: $navbar-brand-color;
+        }
+    
+    .fa {
+        &:hover,
+        &:focus {
+            color: $navbar-default-link-hover-color;    
+            }    
+    }
+}
+.modal-body {
+    background-color: $lt_grn;
+    textarea {
+        background-color: $body-bg;
+        resize: none;
+    }
+    input {
+        background-color: $body-bg;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        li {
+            display: inline-block;
+            margin: 12px;
+        }
+        img {
+            display: inline-block;
+            max-height: 30px;
+        }
+    }
+    .btn-theme {
+        background-color: $dk_grn;
+        &:hover {
+            background-color: $dk_tan;
+        }
+        display: inline-block !important;
+    }
+    .fa-stack-2x {
+        color: $dk_grn;
+    }
+    .fa-stack-1x {
+        color: $dk_yll;
+    }
+}
+
+.modal-footer {
+    background-color: $footer-background-color;
+    border-radius: 0 0 10px 10px;
+    color: $footer-color;
+    font-family: $font-family-base;
+    .btn {
+        border: 1px solid $footer-color;
+        display: inline-block !important;
+    }
+}

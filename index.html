@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link rel="icon" type="image/icon" href="http://hills.ccsf.edu/~jwilley1/vmd142/uxSite/logo.ico">
+       <!-- <link rel="icon" href="logo.ico" type="img/x-icon"> -->
+        <meta charset="utf-8">
+        <title>A&amp;P of a UX Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity = "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin = "anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css">
+<!--  Probably go w/o carousel or crazy popups, but handy reminders the tools are here...
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+-->
+        <link href="css/animate.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+<!-- No above the fold header image, or slideshow, future sprint w/cinamagraph  -->
+<body>
+
+<section id="atf_header" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1 class="home-h1">Anatomy &amp; Process of a User eXperience Design Project</h1>
+            </div>
+        </div>
+    </div>
+</section> <!-- end atf_header -->
+
+<section id="navigation">
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+           <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Navigation toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand" href="../index.html">
+                <img alt="Fertile Ground brand" src="img/icon_silouette.gif" class="img-responsive">Fertile Ground</a>
+            </div>
+            <div class="collapse navbar-collapse">
+			    <ul class="nav navbar-nav navbar-right scrollto">
+				    <li><a href="../index.html"><span class="mob_navicon">
+                            <i class="fa fa-home fa-2x"></i>
+                        </span>Home</a></li>
+				    <li><a href="#team">
+                        <span class="mob_navicon">
+                            <i class="fa fa-users fa-2x"></i>
+                        </span>Team</a></li>
+				    <li><a href="#discovery"><span class="mob_navicon">
+                            <i class="fa fa-question-circle fa-2x"></i>
+                        </span>Discovery</a></li>
+    				<li><a href="#design"><span class="mob_navicon">
+                            <i class="fa fa-cogs fa-2x"></i>
+                        </span>Design</a></li>
+	    			<li><a href="#testing"><span class="mob_navicon">
+                            <i class="fa fa-puzzle-piece fa-2x"></i>
+                        </span>Testing</a></li>
+		    		<li><a href="#demo"><span class="mob_navicon">
+                            <i class="fa fa-play fa-2x"></i>
+                        </span>Demo</a></li>
+			</ul>
+		    </div>
+       
+        </div>
+    </nav>
+</section> <!-- end navigation -->
+
+<section id="introduction" class="section-padding">
+   <div class="container">
+       <div class="row">
+           <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 text-center">
+               <div class="section-heading"><h2>Introductions</h2>
+               </div>
+                   <p class="lead">The following is an example of the process of one team of students' final project for VMD-127: User Experience. This webpage is the product of a final project for VMD-142: Web Production III. Both courses taught at City College San Francisco, in lovely SF, CA.
+                   </p>
+           </div>
+            <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 text-center">
+                <p>The UX project requirements, as a team: demonstrate mastery of the iterative process, use design thinking to make evidence-based user-centric decisions, test those decisions, and create a 'mimnimum viable product' demo for the final deliverable.</p>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 text-center">
+                <p>Web Production requirements included using an Agile process to assemble a custom web project that utilizes a combination of some of the technologies from this semester: Bootstrap, WordPress, SASS, and leveraging custom javaScript and jQuery.</p>
+            </div>
+            </div>
+       </div>
+    </div>
+</section><!-- end introduction -->
+
+<section id="team" class="section-padding">
+   <div class="container">
+       <div class="row">
+          <div class="col-sm-12 text-center">
+              <div class="section-heading">
+                 <span class="icon">
+                      <i class="fa fa-users fa-2x"></i>
+                  </span>
+                  <h2>The UX Team</h2>       
+              </div>
+           <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+               <div class="thumbnail">
+                   <img src="img/team1.jpg" class="img-responsive img-rounded" alt="Reynaldo">
+                   <div class="caption">
+                       <h3>Reynaldo</h3>
+                       <h4>Sprintmaster, Graphics,<br />&amp; User Advocate</h4>
+                       
+                        <div class="col-xs-6 col-xs-offset-3 text-center">
+                            <button type="button" class="btn btn-info btn-lg btn-primray btn-theme" data-toggle="modal" data-target="#contactReynaldo">Contact</button>
+                            
+                            <div id="contactReynaldo" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i></button>
+                                            <h2 class="modal-title navbar-brand"><img alt="Fertile Ground brand" src="img/icon_silouette.gif" class="form_icon img-responsive">Contact Form:</h2>
+                                        </div>
+                                        <div class="modal-body">
+                                           <form method="post" action="mailto:jwilley1@mail.ccsf.edu?subject=UX_Website" title="Contact The Fertile Ground UX Team" onsubmit="location.href='index.html';" name="reynaldoForm" enctype="text/plain">
+                                            <div class="row text-left">
+                                                <div class="col-sm-12">
+                                                <h3>Additional Recipients:</h3>
+                                                     <ul class="email_recipients" name="email_recipients">
+                                                         <li>
+                                                        <label>
+                                                          <input type="checkbox" name="toReynaldo" value="true" checked>&nbsp;Reynaldo
+                                                        </label>
+                                                        <img src="img/team1.jpg" class="img-responsive img-rounded" alt="Reynaldo">
+                                                         </li>
+                                                          <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccSerene" value="true">&nbsp;Serene
+                                                        </label>
+                                                        <img src="img/team2.gif" class="img-responsive img-rounded" alt="Serene">
+                                                        </li>
+                                                        <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccKseniya" value="true">&nbsp;Kseniya
+                                                        </label>
+                                                        <img src="img/team3.jpg" class="img-responsive img-rounded" alt="Kseniya">
+                                                        </li>
+                                                      <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccPatrick" value="true">&nbsp;Patrick
+                                                        </label>
+                                                        <img src="img/team4.jpg" class="img-responsive img-rounded" alt="Patrick">
+                                                         </li>  
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+                                                    <label><h3>Your Name:</h3></label>
+                                                        <input type="text" name="nameo" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Name" required>
+                                                    <label><h3>Your Email:</h3></label>
+                                                        <input type="email" name="replyto" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Email Address" required>
+                                                    <label><h3>Message:</h3></label>
+                                                        <textarea rows="5" name="message" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Say hello" required></textarea>
+                                                    <small class="text-muted">Feature is experimental. Do not send sensitive information.</small>
+                                                </div>
+                                                <div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+                                                    
+                                                <h3><span class="fa-stack fa-md">
+                                                    <i class="fa fa-shield fa-stack-2x"></i>
+                                                    <i class="fa fa-question fa-stack-1x"></i>
+                                                    </span>Are you a robot?</h3>
+                                                    <p>Click the middle one only to confirm you are people.</p>
+                                                     <ul name="no_robots" class="no_robots">
+                                                        <li>
+                                                            <input type="checkbox" name="security1" value="1">
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="security2" value="1">
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="security3" value="1">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row text-right">
+                                                <div class="col-sm-10 col-sm-10-push-1 col-sm-10-pull-1">
+                                                    <input type="button" value="Send" class="btn btn-info btn-lg btn-primray btn-theme" onclick="validate(this.form)">&nbsp;&nbsp;
+	                                                <input type="reset" value="Reset" class="btn btn-info btn-lg btn-primray btn-theme">
+                                                </div>                    
+                                            </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default btn-theme btn-info text-center" data-dismiss="modal"><i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i>&nbsp;Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+           </div>       
+           <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="thumbnail">
+                   <img src="img/team2.gif" class="img-responsive img-rounded" alt="Serene">
+                   <div class="caption">
+                       <h3>Serene</h3>
+                       <h4>Information Architect<br />&amp; Content Strategist</h4>
+
+                        <div class="col-xs-6 col-xs-offset-3 text-center">
+                            <button type="button" class="btn btn-info btn-lg btn-primray btn-theme" data-toggle="modal" data-target="#contactSerene">Contact</button>
+                            
+                            <div id="contactSerene" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i></button>
+                                            <h2 class="modal-title navbar-brand"><img alt="Fertile Ground brand" src="img/icon_silouette.gif" class="form_icon img-responsive">Contact Form:</h2>
+                                        </div>
+                                        <div class="modal-body">
+                                           <form method="post" action="mailto:jwilley1@mail.ccsf.edu?subject=UX_Website" title="Contact The Fertile Ground UX Team" onsubmit="location.href='index.html';" name="sereneForm" enctype="text/plain">
+                                            <div class="row text-left">
+                                                <div class="col-sm-12">
+                                                <h3>Additional Recipients:</h3>
+                                                     <ul class="email_recipients" name="email_recipients">
+                                                         <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccReynaldo" value="true">&nbsp;Reynaldo
+                                                        </label>
+                                                        <img src="img/team1.jpg" class="img-responsive img-rounded" alt="Reynaldo">
+                                                         </li>
+                                                          <li>
+                                                        <label>
+                                                          <input type="checkbox" name="toSerene" value="true" checked>&nbsp;Serene
+                                                        </label>
+                                                        <img src="img/team2.gif" class="img-responsive img-rounded" alt="Serene">
+                                                        </li>
+                                                        <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccKseniya" value="true">&nbsp;Kseniya
+                                                        </label>
+                                                        <img src="img/team3.jpg" class="img-responsive img-rounded" alt="Kseniya">
+                                                        </li>
+                                                      <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccPatrick" value="true">&nbsp;Patrick
+                                                        </label>
+                                                        <img src="img/team4.jpg" class="img-responsive img-rounded" alt="Patrick">
+                                                         </li>  
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+                                                    <label><h3>Your Name:</h3></label>
+                                                        <input type="text" name="nameo" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Name" required>
+                                                    <label><h3>Your Email:</h3></label>
+                                                        <input type="email" name="replyto" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Email Address" required>
+                                                    <label><h3>Message:</h3></label>
+                                                        <textarea rows="5" name="message" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Say hello" required></textarea>
+                                                        <small class="text-muted">Feature is experimental. Do not send sensitive information.</small>
+                                                </div>
+                                                <div class="col-sm-10 col-sm-push-1 col-sm-pull-1">   
+                                                <h3><span class="fa-stack fa-md">
+                                                    <i class="fa fa-shield fa-stack-2x"></i>
+                                                    <i class="fa fa-question fa-stack-1x"></i>
+                                                    </span>Are you a robot?</h3>
+                                                    <p>Click the middle one only to confirm you are people.</p>
+                                                     <ul name="no_robots" class="no_robots">
+                                                        <li>
+                                                            <input type="checkbox" name="security1" value="1">
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="security2" value="1">
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="security3" value="1">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row text-right">
+                                                <div class="col-sm-10 col-sm-10-push-1 col-sm-10-pull-1">
+                                                    <input type="button" value="Send" class="btn btn-info btn-lg btn-primray btn-theme" onclick="validate(this.form)">&nbsp;&nbsp;
+	                                                <input type="reset" value="Reset" class="btn btn-info btn-lg btn-primray btn-theme">
+                                                </div>                    
+                                            </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default btn-theme btn-info text-center" data-dismiss="modal"><i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i>&nbsp;Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+               </div>
+           </div>
+           
+           <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                  <div class="thumbnail">
+                   <img src="img/team3.jpg" class="img-responsive img-rounded" alt="Kseniya">
+                   <div class="caption">
+                       <h3>Kseniya</h3>
+                       <h4>Graphic Design Lead <br />&amp; Mock-up Master</h4>
+
+                       <div class="col-xs-6 col-xs-offset-3 text-center">
+                            <button type="button" class="btn btn-info btn-lg btn-primray btn-theme" data-toggle="modal" data-target="#contactKseniya">Contact</button>
+                            <div id="contactKseniya" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i></button>
+                                            <h2 class="modal-title navbar-brand"><img alt="Fertile Ground brand" src="img/icon_silouette.gif" class="form_icon img-responsive">Contact Form:</h2>
+                                        </div>
+                                        <div class="modal-body">
+                                           <form method="post" action="mailto:jwilley1@mail.ccsf.edu?subject=UX_Website" title="Contact The Fertile Ground UX Team" onsubmit="location.href='index.html';" name="kseniyaForm" enctype="text/plain">
+                                            <div class="row text-left">
+                                                <div class="col-sm-12">
+                                                <h3>Additional Recipients:</h3>
+                                                     <ul class="email_recipients" name="email_recipients">
+                                                         <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccReynaldo" value="true">&nbsp;Reynaldo
+                                                        </label>
+                                                        <img src="img/team1.jpg" class="img-responsive img-rounded" alt="Reynaldo">
+                                                         </li>
+                                                          <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccSerene" value="true">&nbsp;Serene
+                                                        </label>
+                                                        <img src="img/team2.gif" class="img-responsive img-rounded" alt="Serene">
+                                                        </li>
+                                                        <li>
+                                                        <label>
+                                                          <input type="checkbox" name="toKseniya" value="true" checked>&nbsp;Kseniya
+                                                        </label>
+                                                        <img src="img/team3.jpg" class="img-responsive img-rounded" alt="Kseniya">
+                                                        </li>
+                                                      <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccPatrick" value="true">&nbsp;Patrick
+                                                        </label>
+                                                        <img src="img/team4.jpg" class="img-responsive img-rounded" alt="Patrick">
+                                                         </li>  
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+                                                    <label><h3>Your Name:</h3></label>
+                                                        <input type="text" name="nameo" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Name" required>
+                                                    <label><h3>Your Email:</h3></label>
+                                                        <input type="email" name="replyto" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Email Address" required>
+                                                    <label><h3>Message:</h3></label>
+                                                        <textarea rows="5" name="message" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Say hello" required></textarea>
+                                                        <small class="text-muted">Feature is experimental. Do not send sensitive information.</small>
+                                                </div>
+                                                <div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+                                                    
+                                                <h3><span class="fa-stack fa-md">
+                                                    <i class="fa fa-shield fa-stack-2x"></i>
+                                                    <i class="fa fa-question fa-stack-1x"></i>
+                                                    </span>Are you a robot?</h3>
+                                                    <p>Click the middle one only to confirm you are people.</p>
+                                                     <ul name="no_robots" class="no_robots">
+                                                        <li>
+                                                            <input type="checkbox" name="security1" value="1">
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="security2" value="1">
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="security3" value="1">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row text-right">
+                                                <div class="col-sm-10 col-sm-10-push-1 col-sm-10-pull-1">
+                                                    <input type="button" value="Send" class="btn btn-info btn-lg btn-primray btn-theme" onclick="validate(this.form)">&nbsp;&nbsp;
+	                                                <input type="reset" value="Reset" class="btn btn-info btn-lg btn-primray btn-theme">
+                                                </div>                    
+                                            </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default btn-theme btn-info text-center" data-dismiss="modal"><i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i>&nbsp;Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+              </div>
+        
+           <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                 <div class="thumbnail">
+                   <img src="img/team4.jpg" class="img-responsive img-rounded" alt="Patrick">
+                    <div class="caption">
+                        <h3>Patrick</h3>
+                        <h4>Product Advocate, Copy,<br />&amp; Web Master</h4>
+                        
+                        <div class="col-xs-6 col-xs-offset-3 text-center">
+                            <button type="button" class="btn btn-info btn-lg btn-primray btn-theme" data-toggle="modal" data-target="#contactPatrick">Contact</button>
+                            
+                            <div id="contactPatrick" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i></button>
+                                            <h2 class="modal-title navbar-brand"><img alt="Fertile Ground brand" src="img/icon_silouette.gif" class="form_icon img-responsive">Contact Form:</h2>
+                                        </div>
+                                        <div class="modal-body">
+                                           <form method="post" action="mailto:jwilley1@mail.ccsf.edu?subject=UX_Website" title="Contact The Fertile Ground UX Team" onsubmit="location.href='index.html';" name="patrickForm" enctype="text/plain">
+                                            <div class="row text-left">
+                                                <div class="col-sm-12">
+                                                <h3>Additional Recipients:</h3>
+                                                     <ul class="email_recipients" name="email_recipients">
+                                                         <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccReynaldo" value="true">&nbsp;Reynaldo
+                                                        </label>
+                                                        <img src="img/team1.jpg" class="img-responsive img-rounded" alt="Reynaldo">
+                                                         </li>
+                                                          <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccSerene" value="true">&nbsp;Serene
+                                                        </label>
+                                                        <img src="img/team2.gif" class="img-responsive img-rounded" alt="Serene">
+                                                        </li>
+                                                        <li>
+                                                        <label>
+                                                          <input type="checkbox" name="ccKseniya" value="true">&nbsp;Kseniya
+                                                        </label>
+                                                        <img src="img/team3.jpg" class="img-responsive img-rounded" alt="Kseniya">
+                                                        </li>
+                                                      <li>
+                                                        <label>
+                                                          <input type="checkbox" name="toPatrick" value="true" checked>&nbsp;Patrick
+                                                        </label>
+                                                        <img src="img/team4.jpg" class="img-responsive img-rounded" alt="Patrick">
+                                                         </li>  
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+                                                    <label><h3>Your Name:</h3></label>
+                                                        <input type="text" name="nameo" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Name" required>
+                                                    <label><h3>Your Email:</h3></label>
+                                                        <input type="email" name="replyto" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Email Address" required>
+                                                    <label><h3>Message:</h3></label>
+                                                        <textarea rows="5" name="message" class="form-control wow animated slideInLeft" data-wow-duration="700ms" data-wow-delay="100ms" placeholder="Say hello" required></textarea>
+                                                        <small class="text-muted">Feature is experimental. Do not send sensitive information.</small>
+                                                </div>
+                                                <div class="col-sm-10 col-sm-push-1 col-sm-pull-1">
+                                                    
+                                                <h3><span class="fa-stack fa-md">
+                                                    <i class="fa fa-shield fa-stack-2x"></i>
+                                                    <i class="fa fa-question fa-stack-1x"></i>
+                                                    </span>Are you a robot?</h3>
+                                                    <p>Click the middle one only to confirm you are people.</p>
+                                                     <ul name="no_robots" class="no_robots">
+                                                        <li>
+                                                            <input type="checkbox" name="security1" value="1">
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="security2" value="1">
+                                                        </li>
+                                                        <li>
+                                                            <input type="checkbox" name="security3" value="1">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row text-right">
+                                                <div class="col-sm-10 col-sm-10-push-1 col-sm-10-pull-1">
+                                                    <input type="button" value="Send" class="btn btn-info btn-lg btn-primray btn-theme" onclick="validate(this.form)">&nbsp;&nbsp;
+	                                                <input type="reset" value="Reset" class="btn btn-info btn-lg btn-primray btn-theme">
+                                                </div>                    
+                                            </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default btn-theme btn-info text-center" data-dismiss="modal"><i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i>&nbsp;Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                     </div>
+               </div>
+           </div>
+           </div>
+       </div> 
+   </div>
+</section> <!-- end team -->
+
+<section id="approach" class="section-padding">
+   <div class="container">
+       <div class="row">
+            <div class="col-xs-12 col-md-6 text-center">
+                  <h2>The Approach</h2>
+                  <p class="lead text-center">a.k.a. 'Ground' Rules</p>                
+           </div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0 lefty">
+                <p>The team quickly chose a SCRUM-based working organization. Goals and milestones were set and achieved in short periods of time (sprints) by briefly reviewing and revising them at every team meeting. This facilitated organized and quick iteration that enabled the team to achieve a high level of productivity and empowered each member to contribute with their strenghs first.</p>
+            </div>
+        </div>
+   </div>
+</section> <!-- end approach -->
+
+<section id="discovery" class="section-padding">
+   <div class="container">
+       <div class="row">
+           <div class="col-sm-12 text-center">
+              <div class="section-heading">
+                <span class="icon">
+                      <i class="fa fa-question-circle fa-2x" aria-hidden="true"></i>
+                </span>
+                  <h2>Discovery Phase</h2>
+                  <p class="lead text-center">...or What We Thought We Knew</p>                  
+              </div>
+           </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 text-center">
+            <p>Initially, the team identified a strong interest in creating THE resource for residential gardening. The team identified several content and functional prerequisites that such an application would absolutely require.</p>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 text-center">
+                    <p>Monetization would be via modest ad revenue through prioritized location-specific recommendations for local 'mom and pop' garden centers for discounts and in-person expertise.</p>
+            </div>
+        </div>        
+       </div>
+   </div>  
+</section> <!-- end discovery -->
+
+<section id="analysis" class="section-padding">
+   <div class="container">
+       <div class="row">
+          <div class="col-sm-12 text-center">
+              <div class="section-heading">
+                  <h2>Competitive Analysis</h2>
+                  <p class="lead text-center">...or How Others Seem to Be Doing It</p>                 
+              </div>
+           </div>
+        </div>
+    </div>
+</section>    
+        
+<section id="competitive" class="col-xs-12 parallax" data-stellar-background-ratio="0.4">   
+    <div class="container">
+        <div class="row">
+           
+           <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 lefty">
+                <p class="tan_p">Competitive analysis was limited to websites geared toward similar goals. Many sites shared similar successful elements, however the team identified several simple and modern opportunities to leverage a competitive advantage.<br /></p>
+            </div>
+
+          <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 lefty">
+                <p class="tan_p">The sites reviewed generally focused on themselves and less about robust and actionable information for visotors. The team decided, a user-centered mobile application that cherry-picked the best of existing solutions, solved current shortcommings, and had value to the community at large was a must.</p>
+            </div>
+            </div>
+            </div>
+</section>          
+       
+<section id="analysis_b" class="section-padding">
+    <div class="container">  
+       <div class="row">
+           <div class="col-sm-12 text-center">
+               <div class="col-sm-12 col-md-6 text-center">
+               <h2>The Pivot</h2>
+               <p class="lead text-center">...or The Best Laid Plans...</p>
+               </div>
+               <div class="col-sm-12 col-md-6 text-center">
+               <p>The team, while reviewing mobile application stores found the app already available. Having been scooped (by a 'perennial' authority) the team still had an ace in the hole: a specific local need to solve. Being able to quickly change direction, or pivot, was essential to ensuring this project was "not just another..." app, but one that solved a need that users didn't realize they had.</p>
+               </div>
+           </div>
+       </div>
+   </div>
+</section> <!-- end analysis_b -->
+
+<section id="research">
+   <div class="container">
+       <div class="row">
+           <div class="col-sm-12 text-center">
+              <div class="section-heading">
+                  <h2>User Research</h2>
+                  <p class="lead text-center">Surveys here, come take ye'r survey!</p>
+              </div>
+           </div>
+           <div class="col-sm-6 text-center">
+            <img src="img/surveys.png" class="img-responsive center-block" alt="image of surveys">
+           </div>
+           <div class="col-sm-6 text-center">
+              
+                <span class="fa-stack fa-md">
+                    <i class="fa fa-flask fa-stack-2x"></i>
+                    <i class="fa fa-bolt fa-stack-1x animated infinite bounce"></i>
+                </span>
+               <p>We 'don dun did' our P2P research! In-person surveys of prospective users provided insight to their desires, interests, and preconceptions of the type of mobile app the team envisioned. Hand-written input from future users guided both functional and content decisions throughout the initial design sprint.</p>
+           </div>       
+       </div>
+   </div>
+</section> <!-- end research -->
+
+<section id="design" class="section-padding">
+   <div class="container">
+       <div class="row">
+           <div class="col-sm-12 text-center">
+              <div class="section-heading">
+                    <span class="icon">
+                      <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+                    </span>
+                  <h2>The Design Process</h2>
+                  <p class="lead text-center">...or How We Assembled &amp; Built a Solution Together</p>             
+              </div>
+           </div>
+       </div>
+    </div>
+</section><!-- end top span of design -->
+ 
+<section id="design_b">
+   <div class="container tan_p">
+    <div class="row">
+           <div class="col-xs-12 col-sm-6 text-center">   
+        <h3>Skeletal Phase</h3>
+            <p>Thumbnails and roughs on paper and whiteboards are an invaluable asset for quickly iterating on complex ideas. Card-sortting drove the process of grouping and logically structuring content.</p>
+            <div class="col-xs-7 text-center">
+                <img src="img/skeletal_1.jpg" class="img-responsive center-block img-thumbnail" alt="sketches">
+            </div>
+            <div class="col-xs-5 center">
+                <img src="img/skeletal_2.jpg" class="img-responsive center-block img-thumbnail" alt="card sorting">
+            </div>
+        </div>
+           
+           <div class="col-xs-12 col-sm-6 text-center">
+        <h3>Personae</h3>
+               <p>Three target users were identified: power-users, and both lo- and hi-tech hobbiest gardening and technology users.</p>
+        <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+            <div class="col-xs-4 text-center">
+            <img src="img/persona_1.jpg" class="img-responsive center-block img-thumbnail" alt="persona 1">
+            </div>
+            <div class="col-xs-4 text-center">
+            <img src="img/persona_2.jpg" class="img-responsive center-block img-thumbnail" alt="persona 2">
+            </div>
+            <div class="col-xs-4 text-center">
+            <img src="img/persona_3.jpg" class="img-responsive center-block img-thumbnail" alt="persona 3">  
+            </div>
+            </div>
+        </div>
+           </div>
+           
+        <div class="row">
+           <div class="col-xs-12 col-sm-6 text-center">
+        <h3>Functional Requirements</h3>
+           <p>Identifying what the app has to do is essential toward creating a test to see how users will want to best use the functions.</p>
+           <div class="col-xs-6 col-xs-offset-3 text-center">
+            <ul class="fa-ul">
+                <li><i class="fa-li fa fa-leaf fa-flip-horizontal" aria-hidden="true"></i>Log-in/out</li>
+                <li><i class="fa-li fa fa-leaf fa-flip-horizontal" aria-hidden="true"></i>User Databse</li>
+                <li><i class="fa-li fa fa-leaf fa-flip-horizontal" aria-hidden="true"></i>Schedule/Calendar Integration</li>
+                <li><i class="fa-li fa fa-leaf fa-flip-horizontal" aria-hidden="true"></i>Weather Forcasts</li>
+                <li><i class="fa-li fa fa-leaf fa-flip-horizontal" aria-hidden="true"></i>Search</li>
+                <li><i class="fa-li fa fa-leaf fa-flip-horizontal" aria-hidden="true"></i>Contact</li>
+                <li><i class="fa-li fa fa-leaf fa-flip-horizontal" aria-hidden="true"></i>Settings and Privacy</li>
+            </ul>
+               </div>
+            </div>
+    
+           <div class="col-xs-12 col-sm-6 text-center">
+        <h3>Content Requirements</h3>
+            <p>On the whole an app provides some sort of information to a user and prioritizing what that content is guides overall heirarchy.</p>
+            <div class="col-xs-6 col-xs-offset-3 text-center">
+               <ul class="fa-ul">
+                <li><i class="fa-li fa fa-leaf" aria-hidden="true"></i>Database: Plants, Pests, etc.</li>
+                <li><i class="fa-li fa fa-leaf" aria-hidden="true"></i>Member Forum</li>
+                <li><i class="fa-li fa fa-leaf" aria-hidden="true"></i>'Almanac'/Seasons/Weather</li>
+                <li><i class="fa-li fa fa-leaf" aria-hidden="true"></i>Multimedia Support</li>
+                <li><i class="fa-li fa fa-leaf" aria-hidden="true"></i>Advice/Blog</li>
+                <li><i class="fa-li fa fa-leaf" aria-hidden="true"></i>Who/About, Help, &amp; FAQs</li>
+            </ul>
+               </div>
+           </div>
+           </div>
+           
+        <div class="row">
+           <div class="col-xs-12 col-sm-6 text-center">
+        <h3>User Flow</h3>
+            <p class="col-md-10 col-md-offset-1">Mapping the actions, flow, of user tasks guided placemnet of features, order of presentation, and where access to some features had to be nested into other screens. This exercise gave the team clear direction for devising wireframes.</p>
+            <div class="col-xs-12 text-center">
+                <img src="img/site_map.jpg" class="img-responsive center-block img-thumbnail" alt="site map">
+            </div>
+        </div>
+          
+           <div class="col-xs-12 col-sm-6 text-center">
+        <h3>Wireframes</h3>
+            <p class="col-md-10 col-md-offset-1">Assembling a series of progressively higher fidelity wireframes unified the teams vision of  how the final product would look and feel. Previously refining information heirarchy allowed the team to divide the work and focus more on higher-order style decisions.</p>
+             <div class="col-xs-12 text-center">
+                <img src="img/wireframes.jpg" class="img-responsive center-block img-thumbnail" alt="wireframes">
+            </div>
+            </div>
+           </div>
+       </div>
+</section><!-- end section - design_b -->
+           
+<section id="style_guide">
+   <div class="container">                                   
+        <div class="row">
+           <div class="col-xs-10 col-xs-offset-1 text-center">
+        <h3>Style Guide</h3>
+            <p>Establishing branding guidelines for textures, use of color, typography, and style unified the project as a whole, creating a consistent outward message for users, and simplifying the boundaries for content presentation refinements.</p>
+            </div>
+           <div class="row">
+                <div class="col-xs-12">
+                   <div class="col-xs-4 col-xs-push-1 col-xs-pull-7">
+                   <h3>Textures:</h3></div>
+                </div>
+                    <div class="col-xs-4 text-center">
+                        <img src="img/texture_1.jpg" class="img-responsive center-block img-thumbnail" alt="texture 1">
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <img src="img/texture_2.jpg" class="img-responsive center-block img-thumbnail" alt="texture 2">
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <img src="img/texture_3.jpg" class="img-responsive center-block img-thumbnail" alt="texture 3">
+                    </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                   <div class="col-xs-4 col-xs-push-1 col-xs-pull-7"><h3>Colors:</h3></div>
+                </div>
+                  
+        <div class="col-xs-4 col-md-2 text-center">
+            <div class="caption-hover-link">
+                <div class="caption-hover">
+                    <p class="text-center">$dk_tan<br />#d8cc60</p>
+                    </div>
+            <img src="img/swatch_1.gif" class="img-responsive center-block img-thumbnail" alt="swatch 1">
+            </div>
+        </div>      
+        <div class="col-xs-4 col-md-2 text-center">
+            <div class="caption-hover-link">
+                <div class="caption-hover">
+                    <p class="text-center">$dk_yll<br />#f9d467</p>
+                    </div>
+            <img src="img/swatch_2.gif" class="img-responsive center-block img-thumbnail" alt="swatch 2">
+            </div>
+        </div>          
+        <div class="col-xs-4 col-md-2 text-center">
+            <div class="caption-hover-link">
+                <div class="caption-hover">
+                    <p class="text-center">$lt_tan<br />#fce9c0</p>
+                    </div>
+            <img src="img/swatch_3.gif" class="img-responsive center-block img-thumbnail" alt="swatch 3">
+            </div>
+        </div>
+        <div class="col-xs-4 col-md-2 text-center">
+            <div class="caption-hover-link">
+                <div class="caption-hover">
+                    <p class="text-center">$lt_grn<br />#a9c358</p>
+                    </div>
+            <img src="img/swatch_4.gif" class="img-responsive center-block img-thumbnail" alt="swatch 4">
+            </div>
+        </div>
+        <div class="col-xs-4 col-md-2 text-center">
+            <div class="caption-hover-link">
+                <div class="caption-hover">
+                    <p class="text-center">$dk_grn<br />#557c3e</p>
+                    </div>
+            <img src="img/swatch_5.gif" class="img-responsive center-block img-thumbnail" alt="swatch 5">
+            </div>
+        </div>
+        <div class="col-xs-4 col-md-2 text-center">
+            <div class="caption-hover-link">
+                <div class="caption-hover">
+                    <p class="text-center">$dark_brn<br />#522802</p>
+                    </div>
+            <img src="img/swatch_6.gif" class="img-responsive center-block img-thumbnail" alt="swatch 6">
+            </div>
+        </div>
+            </div>
+           </div>       
+       </div>
+</section>
+<!-- end style_guide -->
+    
+<section id="testing" class="section-padding">
+   <div class="container">
+       <div class="row">
+                     <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-6 text-center">
+               <div class="section-heading">
+                 <span class="icon">
+                      <i class="fa fa-puzzle-piece fa-2x"></i>
+                  </span>
+                  <h2>User Testing</h2>              
+              </div>
+              <div>
+                  <p class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">Preparing for user testing included devising use case scenarios, a mocked-up demonstration of the app from high-fidelity wireframes, and creating an engaging, but meaningful test script. This is how the team identified what peices of the project were missing and which didn't fit.</p>
+              </div>
+           </div>
+           <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-6 text-center">
+               <img src="img/uxtest_1.png" class="img-responsive center-block" alt="user testing">
+               <div class="caption">
+                   <p class="text-right">Special thanks to M&#233;lanie Y. &amp; Instructor B. Cataldo</p>
+               </div>
+           </div>
+       </div>
+    </div>
+</section>
+
+<section id="feedback">
+    <div class="container">
+        <div class="row">
+           <div class=" col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 text-center">
+               <h3>Feedback</h3>
+               <p>The team benefitted not only from a stellar 'test subject', but from the gold-mine of input from the course instructor and a diverse group of astute future design professionals.</p>
+             <ul>
+                <li><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;&nbsp;Color, imagery, and style well received</li>
+                <li><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;&nbsp;Icons and layout understandable</li>
+                <li><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;&nbsp;Consider reordering home screen icons</li>
+                <li><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;&nbsp;Onboarding too wordy</li>
+                <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>&nbsp;&nbsp;Consider a tag line</li>
+                <li><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>&nbsp;&nbsp;Consider name revision</li>
+            </ul>
+           </div>         
+       </div>
+   </div>
+</section> <!-- end testing -->
+
+<section id="redesign" class="section-padding">
+   <div class="container">
+       <div class="row">
+           <div class="col-sm-12 text-center">
+              <div class="section-heading">
+                  <h2>Final Sprint</h2>
+                  <p class="lead text-center">Refine, Demo, Release</p>                 
+              </div>
+              <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-12 col-lg-offset-0 text-center">
+       <p>With less than a week left, the team rallied for one final sprint to achieve a Minimum Viable Product (MVP) concept that integrated the user feedback. This particular project did not require a fully functional and complete demo, rather just the ability to complete the 2 tasks defined in the user testing scenarios.</p>
+            </div>
+            </div>
+    </div>
+    </div>
+</section>
+<section id="demo" class="section-padding">
+    <div class="container">
+       <div class="row">
+        <div class="col-sm-12 text-center">
+                   <div class="section-heading">
+                    <span class="icon">
+                        <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+                    </span>
+                <h2>Final Demo</h2>
+                    </div>
+<!-- bootstrap embed not optimized... source not responsive either, embed specs cater to video size ratios, so depreciated w/sandbox option for mobile size -->
+            <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-xl-6 col-xl-offset-3 text-center">
+                <iframe class="demo col-xs-12 text-center" src="https://projects.invisionapp.com/share/5D5DRDFEV#/screens/123835565/" sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts"><p>The final demo is hosted via Invision <a href="https://projects.invisionapp.com/share/5D5DRDFEV#/screens/123835565/">HERE</a>.</p>
+              </iframe>
+               <div class="iframe_mobile">
+                <p>Click the image below to be taken to the live final demo, hosted at Invision.</p>
+                <a href="https://projects.invisionapp.com/share/5D5DRDFEV#/screens/123835565/">
+                <img src="img/demo_home.jpg" class="img-responsive center-block img-thumbnail" alt="demo home screen">
+                   </a>
+                </div>
+            </div>
+       </div>
+       </div>
+    </div>
+</section> <!-- end redesign -->
+
+<a href="#" class="scrollToTop"><i class="fa fa-angle-double-up"></i></a>
+   
+    <section id="footer" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 lefty">
+                    <p>&copy;&nbsp;Copywrite 2016 Patrick Willey et. al.    
+                    </p>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <span class="fa-stack fa-2x">
+                      <a href="https://twitter.com/JPW_Student">
+                       <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square fa-stack-1x" aria-hidden="true"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                      <a href="https://www.linkedin.com/in/patrickwilley">
+                       <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square fa-stack-1x" aria-hidden="true"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                       <a href="http://www.sfpatrickwilley.net">
+                        <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+                        <i class="fa fa-home fa-stack-1x" aria-hidden="true"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                       <a href="https://plus.google.com/u/2/b/111637555904303065906/108791001934919749655?pageId=111637555904303065906">
+                        <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus-square fa-stack-1x" aria-hidden="true"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section><!-- end footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/jquery.sticky.js" type="text/javascript"></script>
+<script src="js/jquery.stellar.js" type="text/javascript"></script>
+<script src="js/jquery.flexslider.js" type="text/javascript"></script>
+<!-- future sprint - implement jquery validation... return in-line notifications instead of alert widows
+<script src="http://cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.js"></script>
+-->
+<script src="js/custom.js" type="text/javascript"></script>
+
+</body>
+</html>

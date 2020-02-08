@@ -1,0 +1,51 @@
+// color-palate variable values
+$dark_brn: #522802; // mainly type and borders
+$dk_grn: #557c3e;  // mainly body background color
+$lt_grn: #a9c358;  // primarily opacity cover, icons
+$dk_yll: #f9d467;  // contrast, icons
+$dk_tan: #d8cc60;  // content background
+$lt_tan: #fce9c0; // section/group background and button rollover 
+$white: #fffbf3;
+$bright_wt: #ffffff;
+$black: #000000;
+
+// Scaffolding:
+$body-bg: $white; // background color for <body>
+$text-color: $black; // global text color for <body>
+$link-color: $lt_tan; // global textual link color
+$link-hover-color: $dk_yll; // global hover link color
+$link-hover-decoration: none; // global link decoration
+
+// typography-related varialbes
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,300italic,700italic,900,900italic);
+$font-family-base: "Lato", sans-serif;
+$font-family-headings: $font-family-base;
+$font-size-base: 14px; // same as Bootstrap default
+$font-size-h1: 4rem; 
+$font-size-h2: 2.5rem;
+$font-size-h3: 2rem;
+$font-size-h4: 1.6rem;
+$font-size-p: 1.5rem;
+$line-height-base: 1.428571429; // same as Bootstrap default
+$headings-font-weight: 500;
+$headings-line-height: 1.1;
+$headings-color: $black;
+$footer-font-size: 1.2rem;
+
+
+// Navbar:
+$navbar-default-bg: $dk_grn;
+$navbar-default-font-family: $font-family-base;
+$navbar-default-link-color: $lt_tan;
+$navbar-default-link-hover-color: $dk_tan;
+$navbar-brand-color: $lt_tan;
+
+// Buttons:
+$btn-font-family: 'Monsterrat', sans-serif;
+$btn-font-size: 1rem;
+$btn-font-weight: 400;
+
+// Footer:
+$footer-color: $navbar-brand-color;
+$footer-link-hover-color: $navbar-default-link-hover-color;
+$footer-background-color: $navbar-default-bg;
